@@ -1,0 +1,22 @@
+Feature,Business Meaning,Feature Type
+customerID,Unique customer identification number,Identifier
+gender,Gender of the customer,Categorical
+SeniorCitizen,Whether the customer is a senior citizen,Binary
+Partner,Whether the customer has a partner,Binary
+Dependents,Whether the customer has dependents,Binary
+tenure,Number of months the customer has used the service,Numerical
+PhoneService,Whether the customer has phone service,Binary
+MultipleLines,Whether the customer has multiple phone lines,Categorical
+InternetService,Type of internet service,Categorical
+OnlineSecurity,Whether online security service is subscribed,Categorical
+OnlineBackup,Whether online backup service is subscribed,Categorical
+DeviceProtection,Whether device protection service is subscribed,Categorical
+TechSupport,Whether technical support service is subscribed,Categorical
+StreamingTV,Whether streaming TV service is subscribed,Categorical
+StreamingMovies,Whether streaming movies service is subscribed,Categorical
+Contract,Type of customer contract,Categorical
+PaperlessBilling,Whether paperless billing is enabled,Binary
+PaymentMethod,Customer payment method,Categorical
+MonthlyCharges,Monthly amount charged to the customer,Numerical
+TotalCharges,Total amount charged to the customer,Numerical
+Churn,Whether the customer left the company,Target

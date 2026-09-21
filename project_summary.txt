@@ -1,0 +1,46 @@
+
+TELCO CUSTOMER CHURN ANALYSIS AND PREDICTION
+=============================================
+
+1. Business Problem
+The telecom company wants to understand customer churn
+and identify factors associated with customer attrition.
+
+2. Business Objective
+- Analyze customer churn patterns.
+- Understand customer characteristics.
+- Build a machine learning model.
+- Support customer retention strategies.
+
+3. Data Cleaning
+- Converted TotalCharges into numeric format.
+- Removed records with missing TotalCharges.
+- Checked duplicate records.
+
+4. Exploratory Data Analysis
+- Analyzed churn distribution.
+- Examined contract, internet service, and payment method.
+- Studied tenure, MonthlyCharges, and TotalCharges.
+- Performed outlier and correlation analysis.
+
+5. Machine Learning
+- Used Logistic Regression.
+- Applied numerical scaling.
+- Applied categorical one-hot encoding.
+- Used an 80/20 train-test split.
+
+6. Model Evaluation
+Evaluation metrics are available in:
+model_evaluation_results.csv
+
+7. Business Recommendations
+- Investigate high-risk customer groups.
+- Study contract-related churn patterns.
+- Evaluate customer service improvements.
+- Consider targeted retention campaigns.
+
+8. Limitations
+- Results depend on the available dataset.
+- Correlation does not establish causation.
+- Model predictions require business validation.
+- Retention actions should consider fairness and customer privacy.
